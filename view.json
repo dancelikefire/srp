@@ -1,0 +1,98 @@
+[
+  {
+    "p": "b",
+    "M": "A → b A'",
+    "Production": "",
+    "method": "",
+    "token": "bbbcc$",
+    "stack": "$A"
+  },
+  {
+    "p": "b",
+    "M": "A → b A'",
+    "Production": "",
+    "method": "generate",
+    "token": "bbbcc$",
+    "stack": "$A'b"
+  },
+  {
+    "p": "b",
+    "M": null,
+    "Production": "b",
+    "method": "match",
+    "token": "bbcc$",
+    "stack": "$A'"
+  },
+  {
+    "p": "b",
+    "M": "A' → A c",
+    "Production": "b",
+    "method": "generate",
+    "token": "bbcc$",
+    "stack": "$cA"
+  },
+  {
+    "p": "b",
+    "M": "A → b A'",
+    "Production": "b",
+    "method": "generate",
+    "token": "bbcc$",
+    "stack": "$cA'b"
+  },
+  {
+    "p": "b",
+    "M": null,
+    "Production": "bb",
+    "method": "match",
+    "token": "bcc$",
+    "stack": "$cA'"
+  },
+  {
+    "p": "b",
+    "M": "A' → A c",
+    "Production": "bb",
+    "method": "generate",
+    "token": "bcc$",
+    "stack": "$ccA"
+  },
+  {
+    "p": "b",
+    "M": "A → b A'",
+    "Production": "bb",
+    "method": "generate",
+    "token": "bcc$",
+    "stack": "$ccA'b"
+  },
+  {
+    "p": "b",
+    "M": null,
+    "Production": "bbb",
+    "method": "match",
+    "token": "cc$",
+    "stack": "$ccA'"
+  },
+  {
+    "p": "c",
+    "M": "A' → ε",
+    "Production": "bbb",
+    "method": "generate",
+    "token": "cc$",
+    "stack": "$cc"
+  },
+  {
+    "p": "c",
+    "M": null,
+    "Production": "bbbc",
+    "method": "match",
+    "token": "c$",
+    "stack": "$c"
+  },
+  {
+    "p": "c",
+    "M": null,
+    "Production": "bbbcc",
+    "method": "match",
+    "token": "$",
+    "stack": "$"
+  }
+]
