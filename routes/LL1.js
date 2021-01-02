@@ -171,6 +171,9 @@ router.get('/leftRecursion',(req,res,next)=>{
     grammar=result.newGrammar
 
     result=ELR(grammar)
+    delete result.eliminatingEmptyGrammar
+    delete result.eliminatingCyclesGrammar
+
     res.json(result)
 })
 

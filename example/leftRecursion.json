@@ -1,0 +1,147 @@
+{
+  "immedationRecursion": [
+    {
+      "head": {
+        "symbol": "A",
+        "type": "Nonterminal",
+        "i": 189
+      },
+      "body": [
+        {
+          "symbol": "A",
+          "type": "Nonterminal",
+          "i": 189
+        },
+        {
+          "symbol": "c",
+          "type": "Terminal",
+          "i": 190
+        }
+      ]
+    }
+  ],
+  "indirectRecursion": [],
+  "eliminatingEmptyGrammar": {
+    "productions": [],
+    "signs": {},
+    "firstSet": {
+      "map": {},
+      "dirty": false
+    },
+    "followSet": {
+      "map": {},
+      "dirty": false
+    },
+    "PPT": {
+      "map": {},
+      "nonterminals": {},
+      "terminals": {},
+      "modify": {
+        "nonterminal": "",
+        "terminal": ""
+      }
+    },
+    "startSign": null
+  },
+  "eliminatingCyclesGrammar": {
+    "productions": [],
+    "signs": {},
+    "firstSet": {
+      "map": {},
+      "dirty": false
+    },
+    "followSet": {
+      "map": {},
+      "dirty": false
+    },
+    "PPT": {
+      "map": {},
+      "nonterminals": {},
+      "terminals": {},
+      "modify": {
+        "nonterminal": "",
+        "terminal": ""
+      }
+    },
+    "startSign": null
+  },
+  "eliminateLeftRecursionGrammar": {
+    "productions": [
+      {
+        "head": {
+          "symbol": "A'",
+          "type": "Nonterminal",
+          "i": 207
+        },
+        "body": [
+          {
+            "symbol": "c",
+            "type": "Terminal",
+            "i": 205
+          },
+          {
+            "symbol": "A'",
+            "type": "Nonterminal",
+            "i": 207
+          }
+        ]
+      },
+      {
+        "head": {
+          "symbol": "A",
+          "type": "Nonterminal",
+          "i": 204
+        },
+        "body": [
+          {
+            "symbol": "b",
+            "type": "Terminal",
+            "i": 206
+          },
+          {
+            "symbol": "A'",
+            "type": "Nonterminal",
+            "i": 207
+          }
+        ]
+      },
+      {
+        "head": {
+          "symbol": "A'",
+          "type": "Nonterminal",
+          "i": 207
+        },
+        "body": [
+          {
+            "symbol": "ε",
+            "type": "Empty",
+            "i": 202
+          }
+        ]
+      }
+    ],
+    "signs": {},
+    "firstSet": {
+      "map": {},
+      "dirty": false
+    },
+    "followSet": {
+      "map": {},
+      "dirty": false
+    },
+    "PPT": {
+      "map": {},
+      "nonterminals": {},
+      "terminals": {},
+      "modify": {
+        "nonterminal": "",
+        "terminal": ""
+      }
+    },
+    "startSign": {
+      "symbol": "A",
+      "type": "Nonterminal",
+      "i": 204
+    }
+  }
+}
