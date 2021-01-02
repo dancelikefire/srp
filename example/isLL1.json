@@ -1,0 +1,211 @@
+{
+  "isLL1": true,
+  "productions": [
+    {
+      "head": {
+        "symbol": "A",
+        "type": "Nonterminal",
+        "i": 15
+      },
+      "sameHeadProductions": [
+        {
+          "head": {
+            "symbol": "A",
+            "type": "Nonterminal",
+            "i": 15
+          },
+          "body": [
+            {
+              "symbol": "b",
+              "type": "Terminal",
+              "i": 16
+            },
+            {
+              "symbol": "A'",
+              "type": "Nonterminal",
+              "i": 20
+            }
+          ]
+        }
+      ],
+      "firstFollowIntersectionIsEmpty": true,
+      "headFirstSetHasEmpty": false,
+      "headFirstSet": [
+        {
+          "symbol": "b",
+          "type": "Terminal",
+          "i": 16
+        }
+      ],
+      "headFollowSet": [
+        {
+          "symbol": "$",
+          "type": "StackBottom",
+          "i": 14
+        },
+        {
+          "symbol": "c",
+          "type": "Terminal",
+          "i": 17
+        }
+      ],
+      "firstFollowIntersection": [],
+      "bodyFirstSetIntersectionIsEmpty": true,
+      "productionBodyFirstSets": [
+        {
+          "production": {
+            "head": {
+              "symbol": "A",
+              "type": "Nonterminal",
+              "i": 15
+            },
+            "body": [
+              {
+                "symbol": "b",
+                "type": "Terminal",
+                "i": 16
+              },
+              {
+                "symbol": "A'",
+                "type": "Nonterminal",
+                "i": 20
+              }
+            ]
+          },
+          "bodyFirstSet": [
+            {
+              "symbol": "b",
+              "type": "Terminal",
+              "i": 16
+            }
+          ]
+        }
+      ],
+      "bodyFirstSetIntersectionNoEmptyProduction": []
+    },
+    {
+      "head": {
+        "symbol": "A'",
+        "type": "Nonterminal",
+        "i": 20
+      },
+      "sameHeadProductions": [
+        {
+          "head": {
+            "symbol": "A'",
+            "type": "Nonterminal",
+            "i": 20
+          },
+          "body": [
+            {
+              "symbol": "A",
+              "type": "Nonterminal",
+              "i": 15
+            },
+            {
+              "symbol": "c",
+              "type": "Terminal",
+              "i": 17
+            }
+          ]
+        },
+        {
+          "head": {
+            "symbol": "A'",
+            "type": "Nonterminal",
+            "i": 20
+          },
+          "body": [
+            {
+              "symbol": "ε",
+              "type": "Empty",
+              "i": 13
+            }
+          ]
+        }
+      ],
+      "firstFollowIntersectionIsEmpty": true,
+      "headFirstSetHasEmpty": true,
+      "headFirstSet": [
+        {
+          "symbol": "b",
+          "type": "Terminal",
+          "i": 16
+        },
+        {
+          "symbol": "ε",
+          "type": "Empty",
+          "i": 13
+        }
+      ],
+      "headFollowSet": [
+        {
+          "symbol": "$",
+          "type": "StackBottom",
+          "i": 14
+        },
+        {
+          "symbol": "c",
+          "type": "Terminal",
+          "i": 17
+        }
+      ],
+      "firstFollowIntersection": [],
+      "bodyFirstSetIntersectionIsEmpty": true,
+      "productionBodyFirstSets": [
+        {
+          "production": {
+            "head": {
+              "symbol": "A'",
+              "type": "Nonterminal",
+              "i": 20
+            },
+            "body": [
+              {
+                "symbol": "A",
+                "type": "Nonterminal",
+                "i": 15
+              },
+              {
+                "symbol": "c",
+                "type": "Terminal",
+                "i": 17
+              }
+            ]
+          },
+          "bodyFirstSet": [
+            {
+              "symbol": "b",
+              "type": "Terminal",
+              "i": 16
+            }
+          ]
+        },
+        {
+          "production": {
+            "head": {
+              "symbol": "A'",
+              "type": "Nonterminal",
+              "i": 20
+            },
+            "body": [
+              {
+                "symbol": "ε",
+                "type": "Empty",
+                "i": 13
+              }
+            ]
+          },
+          "bodyFirstSet": [
+            {
+              "symbol": "ε",
+              "type": "Empty",
+              "i": 13
+            }
+          ]
+        }
+      ],
+      "bodyFirstSetIntersectionNoEmptyProduction": []
+    }
+  ]
+}
